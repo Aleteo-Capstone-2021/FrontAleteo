@@ -8,7 +8,8 @@
       <input type="password" class="form-control" v-model="pw" placeholder="비밀번호 입력행">
     </div>
 
-    <button class="btn btn-primary btn-block">로그인</button>
+<!--    <button class="btn btn-primary btn-block">로그인</button>-->
+    <a><router-link to="/home">로그인</router-link></a>
   </form>
 </template>
 
@@ -54,10 +55,9 @@ body{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-
 }
 div{
-  padding: 20px;
+  padding: 50px;
 }
 input{
   transition: all 0.5s ease-in-out;
@@ -71,8 +71,6 @@ input{
 }
 input:focus{
   box-shadow: 3px 3px 10px 2px #74b9ff;
-
-
 }
 
 

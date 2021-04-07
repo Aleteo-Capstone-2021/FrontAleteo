@@ -1,29 +1,31 @@
 <template>
+  <div>
+  </div>
   <div id="nav">
-<!--    <router-link to="/">Home</router-link>-->
-<!--    <router-link to="/login">Login</router-link>-->
+<!--    <home/> &lt;!&ndash; 좌측 카테고리 상시 출력 &ndash;&gt;-->
+<!--    <router-link to="/home">Home</router-link>-->
+<!--    <router-link to="/">Login</router-link>-->
+<!--    <router-link to="/projectlist">projectlist</router-link>-->
   </div>
   <router-view/>
 </template>
 
-<!--<script>-->
-<!--import axios from 'axios';-->
+<script>
+// import home from "@/views/Home";
 
-<!--export default {-->
-<!--  name: 'app',-->
-<!--  async created () {-->
-<!--    const { data } = await axios.get('/api/hello');-->
-<!--    console.log(data);-->
-<!--  }-->
-<!--}-->
-<!--</script>-->
+export default {
+  // name: "App",
+  // components: {
+  //   home // 메인의 좌측 카테고리 UI
+  // }
+};
+</script>
 
-<style lang="stylus">
-#app
-  font-family Avenir, Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-  margin-top 60px
+<style>
+
+body {
+
+  padding: 0px;
+  margin: -120px;
+}
 </style>
