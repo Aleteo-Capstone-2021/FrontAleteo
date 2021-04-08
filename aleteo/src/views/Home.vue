@@ -4,7 +4,7 @@
   </div>
 
   <div id="mysidenav" class="sidenav">
-    <a><router-link to="/projectlist"><img alt="Vue logo" src="../assets/garo.png" width="150" height="48"></router-link></a>
+    <a><router-link to="/home"><img alt="Vue logo" src="../assets/garo.png" width="150" height="48"></router-link></a>
     <a><router-link to="/projectlist"><h1>프로젝트</h1></router-link></a>
     <a><router-link to="/learninglist"><h2>학습</h2></router-link></a>
     <a><router-link to="/learninglist/dataform"> - 데이터 형식</router-link></a>
