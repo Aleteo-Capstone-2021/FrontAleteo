@@ -12,7 +12,14 @@ import predict_data from "@/components/predict_data";
 import predict from "@/components/predict";
 import compare_predict_result from "@/components/compare_predict_result";
 
+// UI Components
+import Buttons from "@/components/Buttons";
+
 const routes = [
+
+  // // UI Components
+  { path : '/components/buttons', name: 'buttons', component: Buttons },
+
   {
     path: '/Home',
     name: 'Home',
@@ -81,6 +88,7 @@ const routes = [
     name: 'compare_predict_result',
     component: compare_predict_result
   }
+
 ]
 
 const router = createRouter({
